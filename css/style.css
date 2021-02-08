@@ -1,0 +1,47 @@
+@media only screen and (min-width: 767px) {
+    html::-webkit-scrollbar-track-piece {
+        background: #eee;
+    }
+
+    html::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    html::-webkit-scrollbar-thumb {
+        height: 40px;
+        border-radius: 4px;
+        background-color: #a5a5a5;
+    }
+
+    html::-webkit-scrollbar-thumb:hover {
+        background-color: #bbb;
+    }
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 微软雅黑;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.content {
+    width: 100%;
+}
+
+#masonry {
+    margin: 10px 10px 10px 10px;
+}
+
+.post-item {
+    display: block;
+    padding: 5px;
+}
+
+.post-item-img {
+    width: 100%;
+}
