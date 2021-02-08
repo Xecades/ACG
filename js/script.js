@@ -1,6 +1,6 @@
 var total = 279;
 var masonry = document.getElementById("masonry");
-var prefix = "https://cdn.jsdelivr.net/gh/Xecades/ACG@latest/image/";
+var prefix = "https://cdn.jsdelivr.net/gh/Xecades/ACG/image/";
 
 (() => {
     for (var i = 1; i < total; i++) {
