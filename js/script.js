@@ -1,4 +1,4 @@
-var total = 279;
+var total = 278;
 var masonry = document.getElementById("masonry");
 var prefix = "https://cdn.jsdelivr.net/gh/Xecades/ACG/image/";
 
